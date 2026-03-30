@@ -79,6 +79,28 @@ python3 scripts/run_agents.py --agent all --output-dir ./meus-prompts
 
 
 
+
+## Os agentes escolhem modelo automaticamente?
+
+Hoje: **não automaticamente dentro do prompt**. 
+Mas você já pode usar o roteador de modelo:
+
+```bash
+python3 scripts/model_router.py --agent all --stage analise
+```
+
+Ou via Makefile:
+
+```bash
+make route
+```
+
+Se quiser integrar em automação (n8n/Make), use:
+
+```bash
+python3 scripts/model_router.py --agent all --stage final --json
+```
+
 ## Qual modelo usar sem gastar todos os créditos?
 
 Use a estratégia em camadas:

@@ -14,7 +14,9 @@ FILES_TO_PACKAGE = [
     "playbooks/briefing-cliente.md",
     "playbooks/briefing-exemplo.json",
     "playbooks/protocolo-qualidade.md",
+    "playbooks/modelagem-custos.md",
     "scripts/run_agents.py",
+    "scripts/model_router.py",
     "scripts/build_zip.py",
     "Makefile",
 ]
