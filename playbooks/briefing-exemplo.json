@@ -1,0 +1,30 @@
+{
+  "cliente": "Clínica Sorriso Vivo",
+  "segmento": "Odontologia",
+  "regiao": "São Paulo, Brasil",
+  "objetivo_30_dias": "Aumentar agendamentos via Instagram e WhatsApp",
+  "meta_numerica": "+20% em agendamentos",
+  "publico": {
+    "idade": "25-45",
+    "dores": [
+      "medo de dor em procedimentos",
+      "falta de tempo",
+      "dúvida sobre preço"
+    ],
+    "desejos": [
+      "sorriso estético",
+      "atendimento rápido",
+      "confiança no profissional"
+    ]
+  },
+  "canais": ["Instagram", "TikTok", "WhatsApp"],
+  "concorrentes": [
+    "Clinica A",
+    "Clinica B",
+    "Clinica C"
+  ],
+  "restricoes": [
+    "Sem promessas médicas absolutas",
+    "Linguagem acessível e ética"
+  ]
+}
