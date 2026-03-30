@@ -27,6 +27,8 @@ Criar um fluxo onde os agentes:
 - `playbooks/modelagem-custos.md` — guia para escolher modelo e controlar custos de créditos.
 - `playbooks/briefing-exemplo.json` — briefing pronto para teste rápido.
 - `scripts/run_agents.py` — script para gerar prompts executáveis para cada agente.
+- `scripts/model_router.py` — recomenda qual nível de modelo usar por agente/etapa.
+- `scripts/auto_pipeline.py` — executa pipeline automático (roteamento + prompts + plano + zip).
 
 ## Online ou local: qual usar?
 
@@ -79,6 +81,27 @@ python3 scripts/run_agents.py --agent all --output-dir ./meus-prompts
 
 
 
+
+
+## 100% automático (um comando)
+
+Sim — agora você consegue rodar o fluxo completo com um comando:
+
+```bash
+make auto
+```
+
+Esse comando:
+1. escolhe o nível de modelo por agente (roteador);
+2. gera prompts dos 4 agentes;
+3. cria um `plano-execucao-*.json` com modelo recomendado;
+4. empacota tudo em `outputs/lote-agentes-*.zip`.
+
+Se quiser direto por script:
+
+```bash
+python3 scripts/auto_pipeline.py --stage analise --zip
+```
 
 ## Os agentes escolhem modelo automaticamente?
 

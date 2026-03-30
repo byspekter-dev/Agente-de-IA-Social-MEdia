@@ -17,6 +17,7 @@ FILES_TO_PACKAGE = [
     "playbooks/modelagem-custos.md",
     "scripts/run_agents.py",
     "scripts/model_router.py",
+    "scripts/auto_pipeline.py",
     "scripts/build_zip.py",
     "Makefile",
 ]
