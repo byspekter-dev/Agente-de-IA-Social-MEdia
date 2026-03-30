@@ -1,0 +1,4 @@
+__pycache__/
+outputs/*.md
+dist/*.zip
+!dist/.gitkeep
