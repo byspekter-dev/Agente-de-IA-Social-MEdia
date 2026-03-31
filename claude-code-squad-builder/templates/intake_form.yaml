@@ -1,0 +1,27 @@
+request:
+  service_name: ""
+  business_goal: ""
+  audience: ""
+  channels_or_systems: []
+  north_star_kpi: ""
+
+constraints:
+  legal_or_compliance: []
+  forbidden_actions: []
+  required_tools: []
+  forbidden_tools: []
+
+operations:
+  expected_volume: ""
+  sla: ""
+  needs_human_approval: true
+  approval_points: []
+
+quality:
+  quality_definition: ""
+  primary_kpis: []
+  secondary_kpis: []
+
+notes:
+  assumptions_allowed: false
+  extra_context: ""

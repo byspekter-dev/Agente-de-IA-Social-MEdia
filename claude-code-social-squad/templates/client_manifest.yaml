@@ -1,0 +1,58 @@
+client:
+  slug: "cliente-exemplo"
+  legal_name: "Cliente Exemplo LTDA"
+  brand_name: "Cliente Exemplo"
+  segment: "estetica"
+  region: "Brasil"
+
+business:
+  primary_goal: "gerar leads"
+  secondary_goals:
+    - "aumentar autoridade"
+    - "crescer comunidade qualificada"
+  offer:
+    main: "Procedimento principal"
+    ticket: "medio"
+  constraints:
+    - "nao prometer resultado clinico garantido"
+
+audience:
+  personas:
+    - name: "Persona 1"
+      pains: ["dor 1", "dor 2"]
+      desires: ["desejo 1", "desejo 2"]
+      language_style: "didatico e acolhedor"
+
+channels:
+  active:
+    - "instagram"
+    - "tiktok"
+  focus_channel: "instagram"
+  posting_frequency_week:
+    instagram: 5
+    tiktok: 3
+
+brand_voice:
+  tone: "especialista acessivel"
+  do_say:
+    - "falar com clareza"
+    - "usar provas e dados"
+  dont_say:
+    - "sensacionalismo"
+    - "promessa absoluta"
+
+approval:
+  approver_name: "Nome Aprovador"
+  sla_hours: 48
+  max_review_rounds: 2
+
+kpis:
+  north_star: "leads qualificados"
+  primary:
+    - "ctr"
+    - "taxa de retencao"
+    - "custo por lead organico"
+  secondary:
+    - "alcance qualificado"
+    - "salvamentos"
+    - "compartilhamentos"
